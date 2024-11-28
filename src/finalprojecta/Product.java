@@ -22,4 +22,5 @@ public abstract class Product {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+    System.out.println("hhhhhhh");
 }
