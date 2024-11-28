@@ -5,12 +5,10 @@ import java.util.TreeMap;
 public class InventoryManagement {
     private TreeMap<String, Crop> inventory;
 
-    // Constructor
     public InventoryManagement() {
         inventory = new TreeMap<>();
     }
 
-    // Methods to manage the inventory
     public void addCrop(Crop crop) {
         inventory.put(crop.getName(), crop);
     }
@@ -25,7 +23,7 @@ public class InventoryManagement {
     }
 
     public void urgentCropNotification() {
-        // Logic to notify about urgent crops
+        
     }
 }
 
