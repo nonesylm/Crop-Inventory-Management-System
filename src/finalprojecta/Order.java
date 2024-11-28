@@ -9,7 +9,6 @@ public class Order {
     private LocalDate orderDate;
     private String status;
 
-    // Constructor
     public Order(int orderId, String cropName, int quantity, LocalDate orderDate, String status) {
         this.orderId = orderId;
         this.cropName = cropName;
@@ -18,7 +17,6 @@ public class Order {
         this.status = status;
     }
 
-    // Getter and Setter methods
     public int getOrderId() {
         return orderId;
     }
