@@ -7,14 +7,12 @@ public class Buyer {
     private String contactDetails;
     private LinkedList<Order> orderHistory;
 
-    // Constructor
     public Buyer(String name, String contactDetails, LinkedList<Order> orderHistory) {
         this.name = name;
         this.contactDetails = contactDetails;
         this.orderHistory = orderHistory;
     }
 
-    // Getter methods
     public String getName() {
         return name;
     }
